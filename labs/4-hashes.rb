@@ -27,6 +27,12 @@ bitcoin = gets.chomp
 
 # 2. The value will be a string, so you'll want to convert it to a Float.
 bitcoin = bitcoin.to_f
-
+puts "you have #{bitcoin} bitcoin"
 # 3. inspect the bitcoin_data hash
-puts bitcoin_data
+# puts bitcoin_data
+
+usd_value = bitcoin_data["bpi"]["USD"]["rate_float"]
+puts usd_value
+
+total_value = usd_value * bitcoin
+puts "you have #{total_value} worth of Bitcoin"
