@@ -27,6 +27,33 @@
 # puts "hello!"
 # end
 
+# user_entered_password = "tacos"
+# real_password = "secret"
+
+# if user_entered_password == real_password
+# puts "you are in!"
+# else 
+# puts "nope"
+# end  
+
+# your_team_score = 3
+# other_team_score = 3
+
+# if your_team_score > other_team_score
+# puts "you win!"
+# elsif your_team_score == other_team_score
+#     puts "you tied"
+# else
+#     puts "you lose"
+# end 
+
+# temp = 68
+# precip = 0
+
+# if (temp >= 65 && temp <= 98) || (precip == 0)
+#     puts "it is nice outside"
+# end
+
 # If/Else Conditional Logic
 
 
