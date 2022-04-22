@@ -4,11 +4,12 @@
 
 # Hashes are lists of *key-value pairs*
 
-me = {"name" => "Jacob", "location" => "Chicago", "status" => "student"}
+me = {"name" => "Jacob", "location" => { "city" => "Chicago", "state" => "Illinois" }, "status" => "student"}
 
 # Accessing data from the hash
 
-puts me["name"]
+# puts me["location"]["state"]
+# puts me["name"]
 
 
 
