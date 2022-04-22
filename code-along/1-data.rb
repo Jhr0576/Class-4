@@ -2,6 +2,8 @@
 # is the same as where this file is located and then run:
 # ruby 1-data.rb
 
+puts "Hello, world"
+
 # In Ruby, there are different *types* of data:
 
 # Numbers
